@@ -32,3 +32,33 @@ Massgeschneiderter Kurs fuer Fullstack-Entwickler mit Odoo- & Next.js-Erfahrung.
 ## Ziel
 
 Nach Abschluss kannst du eigenstaendig Shopify Themes, Apps und Headless-Storefronts entwickeln.
+
+## Kanban-Board
+
+Alle 24 Issues sind im **GitHub Project** als Kanban-Board verknupft:
+
+**https://github.com/users/ahmadkhalil2021/projects/3**
+
+### Spalten (Status)
+
+Die Standard-Spalten `Todo` / `In Progress` / `Done` einmalig im Web-UI umbenennen (GitHub-API erlaubt das Umbenennen von Single-Select-Optionen nicht):
+
+1. Board offnen -> oben rechts **...** -> **Settings** -> links **Status**
+2. `Todo` -> `Backlog`, `In Progress` -> `In Arbeit`, `Done` -> `Erledigt`
+
+### Milestones
+
+- **Woche 1: Setup & Partner** (#1-#2) - Partner Account, Admin Deep Dive
+- **Woche 2: Liquid & Themes** (#3-#12) - Theme-Architektur, Liquid, Sections, Custom Theme, AJAX Cart
+- **Woche 3: APIs & Apps** (#13-#19) - REST/GraphQL/Storefront API, OAuth, Webhooks, Functions
+- **Woche 4: Hydrogen & Abschluss** (#20-#24) - Hydrogen Storefront, Abschlussprojekt, Review
+
+### Custom Field "Tag"
+
+Filter nach Phase: `Woche 1` (grun) / `Woche 2` (blau) / `Woche 3` (lila) / `Woche 4` (orange).
+
+### Workflow
+
+1. Issue aus `Backlog` nach `In Arbeit` ziehen
+2. Akzeptanzkriterien durcharbeiten
+3. Status auf `Erledigt` setzen, Issue per `gh issue close` schliessen
